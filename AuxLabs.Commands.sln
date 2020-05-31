@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30014.187
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuxLabs.Commands", "src\AuxLabs.Commands\AuxLabs.Commands.csproj", "{794F9BF3-7A7B-42BE-A70E-E21EEBED4BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6CE659C5-E593-471B-9CCD-C68DAEB48BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxLabs.Commands.Tests", "tests\AuxLabs.Commands.Tests\AuxLabs.Commands.Tests.csproj", "{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "addons", "addons", "{A189CF30-A77E-4A9E-AB27-D5CCA44C16C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxLabs.Commands.Addons.Reflection", "src\AuxLabs.Commands.Addons.Reflection\AuxLabs.Commands.Addons.Reflection.csproj", "{FB75FD0A-4083-4769-B057-41C609928302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxLabs.Commands.Addons.Discord", "src\AuxLabs.Commands.Addons.Discord\AuxLabs.Commands.Addons.Discord.csproj", "{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794F9BF3-7A7B-42BE-A70E-E21EEBED4BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794F9BF3-7A7B-42BE-A70E-E21EEBED4BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794F9BF3-7A7B-42BE-A70E-E21EEBED4BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794F9BF3-7A7B-42BE-A70E-E21EEBED4BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB75FD0A-4083-4769-B057-41C609928302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB75FD0A-4083-4769-B057-41C609928302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB75FD0A-4083-4769-B057-41C609928302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB75FD0A-4083-4769-B057-41C609928302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E05A0EE4-FD66-4EE5-A7C1-B57834C5DEC6} = {6CE659C5-E593-471B-9CCD-C68DAEB48BB3}
+		{FB75FD0A-4083-4769-B057-41C609928302} = {A189CF30-A77E-4A9E-AB27-D5CCA44C16C5}
+		{DB0EC1EA-FF4B-4935-9CA2-AC3FCC8CCD71} = {A189CF30-A77E-4A9E-AB27-D5CCA44C16C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4A5E408-77B3-4EAC-B686-F3D7EE259227}
+	EndGlobalSection
+EndGlobal
